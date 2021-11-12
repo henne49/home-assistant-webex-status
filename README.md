@@ -2,8 +2,10 @@
 How to retrieve webex status into home-assistant.io
 
 you have to fill in the snippet below
+```
 <<personid>>
 <<token>>
+```  
   
 ## How to retrieve Token and PersonID
   
