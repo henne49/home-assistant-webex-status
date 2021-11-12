@@ -8,6 +8,7 @@ you have to fill in the snippet below
 ## How to retrieve Token and PersonID
   
 ## configuration in configuration.yaml  
+```
 sensor:  
   - platform: command_line
     name: Webex Teams Status using Rest
@@ -15,3 +16,4 @@ sensor:
     # Since the response is JSON, we can parse out just the Status key
     value_template: "{{ value_json.status }}"
     scan_interval: 10
+```
